@@ -1,8 +1,8 @@
 
 
-import 'package:feeling_metter/core/routes/routes.dart';
 import 'package:feeling_metter/provider/form_provider.dart';
 import 'package:feeling_metter/provider/select_provider.dart';
+import 'package:feeling_metter/screen/view/my_home_page.dart';
 import 'package:feeling_metter/screen/viewmodels/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -25,11 +25,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp.router(
+    return const MaterialApp(
 
       debugShowCheckedModeBanner: false,
-      routerConfig: AppRouter().router, 
-      
+        home: MyHomePage(),
        // Pass the routerConfig
     );
   }
