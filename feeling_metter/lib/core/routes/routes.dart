@@ -1,7 +1,7 @@
 import 'package:feeling_metter/screen/view/calender.dart';
 import 'package:feeling_metter/screen/view/mood_diary_screen.dart';
 import 'package:feeling_metter/screen/view/my_home_page.dart';
-import 'package:feeling_metter/viewmodels/statistics_screen.dart';
+import 'package:feeling_metter/screen/view/statistics_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
